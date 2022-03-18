@@ -46,7 +46,8 @@ transition: 0.3s;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: blue;
+    color:gray;
+    border-bottom: 2px solid gray;
     }
     .navbar-right-btn{
         display: flex;
@@ -79,7 +80,7 @@ width: 159px;
 left: 1041px;
 top: 8px;
 border-radius: 5px;
-border: 3px solid rgba(0, 186, 252, 1);
+border: 2px solid rgba(0, 186, 252, 1);
 padding: 8px, 16px, 8px, 16px;
 background: rgba(255, 255, 255, 1);
 font-family: Open Sans;
@@ -92,7 +93,12 @@ text-align: left;
 color:rgba(0, 186, 252, 1) ;
 }
 
-
+.navbar-btn-link{
+    color: white;
+}
+.navbar-btn-link:hover{
+    color: rgba(0, 186, 252, 1)
+}
 .navbar {
     height: 56px;
     box-shadow: 0px 10px #F8F8F8;
@@ -105,8 +111,8 @@ color:rgba(0, 186, 252, 1) ;
     justify-content: space-between;
 }
 .header-title{
-    width: 450px;
-    font-size: 30px;
+    width: 550px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 39px;
@@ -115,8 +121,8 @@ color:rgba(0, 186, 252, 1) ;
     color: rgba(0, 0, 0, 1);
 }
 .header-text{
-    width: 400px;
-font-size: 16px;
+    width: 500px;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
@@ -133,6 +139,7 @@ width: 232px;
 left: 0px;
 top: 184px;
 border: none;
+border:2px solid rgba(0, 186, 252, 1);
 border-radius: 5px;
 padding: 8px, 16px, 8px, 16px;
 background: rgba(0, 186, 252, 1);
@@ -153,17 +160,17 @@ transition: 0.3S;
 width: 232px;
 left: 0px;
 top: 184px;
-border:3px solid rgba(0, 186, 252, 1);
+border:2px solid rgba(0, 186, 252, 1);
 border-radius: 5px;
 padding: 8px, 16px, 8px, 16px;
-background: rgba(255, 255, 255, 1);
+background: rgb(99, 205, 243);
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
-color: rgba(0, 186, 252, 1);
+color: rgba(255, 255, 255, 1);
 
 }
 .header-item{
@@ -217,7 +224,7 @@ text-align: center;
 color: rgba(0, 0, 0, 1);
 }
 .services-btn{
-    padding: 5px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +247,7 @@ background: rgba(0, 186, 252, 1);
 
 }
 .services-btn:hover{
-    padding: 5px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,7 +255,7 @@ background: rgba(0, 186, 252, 1);
 width: 167px;
 left: 0px;
 top: 24px;
-border:3px solid rgba(0, 186, 252, 1);
+border:2px solid rgba(0, 186, 252, 1);
 border-radius: 5px;
 padding: 8px, 16px, 8px, 16px;
 font-family: Open Sans;
@@ -258,8 +265,8 @@ font-weight: 700;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
-color: rgba(0, 186, 252, 1);
-background: rgba(255, 255, 255, 1);
+color: rgb(255, 255, 255);
+background: rgb(131, 205, 255);
 
 }
 .services-item:nth-child(4){
@@ -269,14 +276,27 @@ background: rgba(255, 255, 255, 1);
     align-items: center;
 }
 .services-link{
-    padding: 5px;
+    padding: 10px;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
+border-bottom: 2px solid rgb(255, 255, 255) ;
 text-align: center;
-color: blue;
+color: rgba(0, 186, 252, 1);
+transition: 0.3s;
+}
+.services-link:hover{
+    padding: 10px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+border-bottom: 2px solid rgb(119, 215, 250) ;
+letter-spacing: 0em;
+text-align: center;
+color: rgb(119, 210, 243);
 }
 .step-list{
     display: flex;
@@ -306,8 +326,11 @@ justify-content: center;
 display: flex;
 justify-content: center;
 }
+.section-item:nth-child(8){
+padding: 50px;
+}
 .section-btn{
-    padding: 20px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,7 +341,7 @@ top: 24px;
 border-radius: 5px;
 padding: 8px, 16px, 8px, 16px;
 background: rgba(0, 186, 252, 1);
-border:3px solid rgba(0, 186, 252, 1) ;
+border:2px solid rgba(0, 186, 252, 1) ;
 font-family: Open Sans;
 font-size: 16px;
 font-style: normal;
@@ -329,7 +352,7 @@ text-align: left;
 color: rgba(255, 255, 255, 1);
 }
 .section-btn:hover{
-    padding: 20px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,7 +363,7 @@ top: 24px;
 border-radius: 5px;
 padding: 8px, 16px, 8px, 16px;
 background: rgba(255, 255, 255, 1);
-border:3px solid rgba(0, 186, 252, 1) ;
+border:2px solid rgba(0, 186, 252, 1) ;
 font-family: Open Sans;
 font-size: 16px;
 font-style: normal;
@@ -356,9 +379,10 @@ color: rgba(0, 186, 252, 1);
     justify-content: center;
 }
 .order-form-form-input{
+    
   outline: none;
     height: 56px;
-width: 300px;
+width: 320px;
 left: 24px;
 top: 24px;
 border: none;
@@ -370,7 +394,7 @@ background: rgba(243, 243, 243, 1);
 .order-form-select{
    outline: none;
     height: 56px;
-    width: 300px;
+    width: 320px;
     left: 24px;
     top: 24px;
     border: none;
@@ -424,7 +448,7 @@ border-radius: 5px;
 padding: 8px, 16px, 8px, 16px;
 background: rgba(0, 186, 252, 1);
 font-family: Open Sans;
-border: 3px solid rgba(0, 186, 252, 1);
+border: 2px solid rgba(0, 186, 252, 1);
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -446,7 +470,7 @@ border-radius: 5px;
 padding: 8px, 16px, 8px, 16px;
 background: rgba(255, 255, 255, 1);
 font-family: Open Sans;
-border:3px solid rgba(0, 186, 252, 1) ;
+border:2px solid rgba(0, 186, 252, 1) ;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -459,6 +483,8 @@ color: rgba(0, 186, 252, 1);
     text-align: center;
 }
 .form-item{
+    display: flex;
+    justify-content: center;
     padding: 5px;
 }
 .form-item:nth-child(4){
@@ -498,6 +524,7 @@ width: 125px;
     width: 125px;
 }
 .footer-text{
+    padding: 3px;
     font-family: Open Sans;
 font-size: 16px;
 font-style: normal;
@@ -510,7 +537,7 @@ color: white;
 }
 .footer-title{
     width: 200px;
-    padding: 20px;
+    padding: 20px 0;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -543,6 +570,38 @@ color: white;
     text-align: left;
     color: rgba(0, 186, 252, 1);
         padding: 20px;
+    }
+    .footer-link-menu{
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+            padding: 20px;
+            transition: 0.3s;  
+    }
+    .footer-link-menu:hover{
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(0, 186, 252, 1);
+            padding: 20px;
+              
+    }
+    .footer-link-menu{
+        height: 30px;
+        
+        display: flex;
+        align-items: center;
+
+    }
+    .footer-link-img{
+        padding: 5px;
+        height:30px;
+        width: 30px;
     }
 
 

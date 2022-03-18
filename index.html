@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixer</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
- <div class="navbar">
-     <div class="container">
+ <div class="navbar" >
+     <div class="container" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
      <ul class="navbar-list">
          <li class="navbar-item">
              <a href="#" class="navbar-link">
@@ -49,7 +51,7 @@
                  </li>
                  <li class="navbar-right-item">
                    <button class="navbar-right-btn">
-                    +998 90 921 37 11
+                  <a href="tell" class="navbar-btn-link">  +998 90 921 37 11</a>
                    </button>
                  </li>
              </ul>
@@ -57,8 +59,9 @@
      </ul>
      </div>
  </div>   
- <div class="header">
-     <div class="container">
+ <div class="header" >
+     <div class="container" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
          <ul class="header-list">
              <li class="header-item">
                  <h1 class="header-title">
@@ -80,8 +83,9 @@
          <iframe class="header.video" width="458" height="258" src="https://www.youtube.com/embed/KH9jWUba794" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      </div>
  </div>
- <div class="services">
-     <div class="container">
+ <div class="services"  >
+     <div class="container"data-aos="flip-up" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
          <ul class="services-list">
              <li class="services-item">
                  <h1 class="services-title">
@@ -159,8 +163,9 @@
          </ul>
      </div>
  </div>
- <div class="section">
-     <div class="container">
+ <div class="section" >
+     <div class="container"data-aos="flip-down" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
          <ul class="section-list">
              <li class="section-item">
                  <h1 class="section-title">
@@ -287,8 +292,9 @@
          </ul>
      </div>
  </div>
- <div class="order-form">
-     <div class="container">
+ <div class="order-form"  >
+     <div class="container" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
          <ul class="order-form-list">
              <li class="order-form-item">
                  <h1 class="order-form-title">
@@ -309,6 +315,8 @@
                     <select name="
                     " id="" class="order-form-select">
                     <option value="Xizmat turi">Xizmat turi</option>
+                    <option value="Buyurtma berish">Buyurtma berish</option>
+                    <option value="Tanlash">Tanlash</option>
                 </select>
                    </li>
                    <li class="form-item">
@@ -323,7 +331,8 @@
      </div>
  </div>
  <div class="footer">
-     <div class="container">
+     <div class="container" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
          <ul class="footer-list">
              <li class="footer-item">
                  <h2 class="footer-title">
@@ -348,13 +357,17 @@
                 <h1 class="footer-title">
                     Biz internetda
                 </h1>
-                <a href="#" class="footer-link">Telegram</a>
-                <a href="#" class="footer-link">Facebook</a>
-                <a href="#" class="footer-link">Instagram</a>
+                <a href="#" class="footer-link-menu"><img src="./telegram.svg" alt="" class="footer-link-img"> Telegram</a>
+                <a href="#" class="footer-link-menu"><img src="./Vector (4).png" alt="" class="footer-link-img"> Facebook</a>
+                <a href="#" class="footer-link-menu"><img src="./instagram.png" alt="" class="footer-link-img"> Instagram</a>
                
             </li>
          </ul>
      </div>
  </div>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
 </body>
 </html>
